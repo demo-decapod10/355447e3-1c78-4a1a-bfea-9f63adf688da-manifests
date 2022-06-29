@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/name: kubed
         app.kubernetes.io/instance: kubed
       annotations:
-        checksum/apiregistration.yaml: 103f55b99417f8b9ca9131407819ad833bd16a14bd20e8904cbdc52217e4f680
+        checksum/apiregistration.yaml: da110018bcc18182a57f741dd2761ccf527d8eff764170174addf91f757d99c3
     spec:
       serviceAccountName: kubed
       containers:
