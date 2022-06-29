@@ -2,7 +2,7 @@
 apiVersion: cluster.x-k8s.io/v1beta1
 kind: Cluster
 metadata:
-  name: 355447000
+  name: 3.55447e+08
   namespace: 355447e3
 spec:
   clusterNetwork:
@@ -14,8 +14,8 @@ spec:
   controlPlaneRef:
     apiVersion: controlplane.cluster.x-k8s.io/v1beta1
     kind: KubeadmControlPlane
-    name: 355447000-control-plane
+    name: 3.55447e+08-control-plane
   infrastructureRef:
     apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
     kind: ByoCluster
-    name: 355447000
+    name: 3.55447e+08
